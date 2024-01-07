@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li {
+    background-color: red;
+    margin: 5px;
+}
+
+.back_blue {
+    background-color: blue;
+}
+
+.back_red {
+    background-color: red;
+}
+
+.back_yellow {
+    background-color: yellow;
+}
+
+.font_purple {
+    color: purple;
+}
