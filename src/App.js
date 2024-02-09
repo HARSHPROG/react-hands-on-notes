@@ -10,11 +10,18 @@ import './App.css';
 // import UseReducerCounter from './hooks1/UseReducer';
 // import DummyComponent from './dummyComponent';
 // import FunctionalTest from './exercises/functionalTest';
-import UseRefHook from './hooks1/UseRefHook';
-import MyComponentWithLogging from './React Concepts/HOC';
-import Tab from './React Concepts/CompondPattern';
+// import UseRefHook from './hooks1/UseRefHook';
+// import MyComponentWithLogging from './React Concepts/HOC';
+// import Tab from './React Concepts/CompondPattern';
+import Game from './exercises/country capital Game/Game';
 
 function App() {
+  const countryCap = {
+    India: 'Delhi',
+    Russia: 'Moscow',
+    USA: 'Washington DC'
+}
+
   return (
     <div className="App">
       {/* <MyComponent /> */}
@@ -44,13 +51,14 @@ function App() {
         {/* <MyComponentWithLogging message="Hello, World!" /> */}
       {/* </header> */}
 
-      <Tab>
+      {/* <Tab>
         <Tab.HeadsContainer>
           <Tab.Item label="Tab1" index={1} />
           <Tab.Item label="Tab2" index={2} />
           <Tab.Item label="Tab3" index={3} />
         </Tab.HeadsContainer>
-      </Tab>
+      </Tab> */}
+      <Game data = {countryCap}/>
     </div>
   );
 }

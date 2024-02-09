@@ -1,0 +1,29 @@
+
+.game-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.option {
+    padding: 10px 20px;
+    border: 2px solid #414141;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.selected {
+    border-color: blue;
+}
+
+.incorrect {
+    border-color: red;
+}
+
+.correct {
+    border-color: green;
+}
