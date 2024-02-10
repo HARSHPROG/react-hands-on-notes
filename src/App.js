@@ -13,7 +13,9 @@ import './App.css';
 // import UseRefHook from './hooks1/UseRefHook';
 // import MyComponentWithLogging from './React Concepts/HOC';
 // import Tab from './React Concepts/CompondPattern';
-import Game from './exercises/country capital Game/Game';
+// import Game from './exercises/country capital Game/Game';
+// import Dummy2 from './dummy2';
+import ExampleUseCustomMemo from './ReactHooksImplementation/exampleUseCustoMemo';
 
 function App() {
   const countryCap = {
@@ -58,7 +60,9 @@ function App() {
           <Tab.Item label="Tab3" index={3} />
         </Tab.HeadsContainer>
       </Tab> */}
-      <Game data = {countryCap}/>
+      {/* <Game data = {countryCap}/> */}
+      {/* <Dummy2 /> */}
+      <ExampleUseCustomMemo />
     </div>
   );
 }
